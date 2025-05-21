@@ -1,0 +1,460 @@
+ *
+        {
+
+            margin: 0;
+
+            padding: 0;
+
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+
+        }
+        
+
+        .top-header
+
+        {   display: flex;
+
+            height: 20px;
+
+            background-color: #1F2937;
+
+            color: white;
+
+            display: flex;
+
+            align-items: center;
+
+            flex:auto;
+               
+        }
+        .head-logo
+
+        {
+
+        font-size: small;
+
+        padding-left: 80px;      
+
+        }
+
+        .top-link a
+        {   
+            
+            font-size: xx-small;
+
+            color: white;
+
+            font-weight: 10px;
+
+            text-decoration: none;    
+            
+        }
+        .top-link a:hover
+        {
+            color: red;
+        }
+        .top-link
+        {
+            display: flex;
+
+            gap: 5px;
+
+            margin-left: auto;
+
+            margin-right: 50px;
+
+            font-family: monospace; 
+
+        }
+
+        .section-one
+
+        {
+            height: 130px;
+
+            width: auto;
+
+            display: flex;
+
+            flex: auto;
+
+            background-color:#1F2937 ;
+
+            align-items: center;
+            
+        }
+
+        .topleft
+
+        {   display: flex;
+
+            width: 50%;
+
+            flex-direction: column;
+
+            color: white;
+
+            flex-wrap: wrap;
+
+            flex-grow: 0;
+            
+        }
+
+     .boldtext,.smalltext,.button
+
+     {  display: flex;
+
+         margin-left: 80px;
+
+         flex: 0 1 0;
+
+         flex-wrap: wrap;
+
+         margin-top: 5px;
+
+         align-items: center;
+         
+     }
+
+      .smalltext
+
+      {
+
+         font-size: xx-small;
+
+      }
+
+      .button
+
+      {
+        color: white;
+
+        background-color: rgb(0, 132, 255);
+
+        font-size: xx-small;
+
+        margin-right: auto;
+
+        padding: 2px 12px;
+
+        border-radius: 3px;
+
+        border: 1px solid rgba(0, 0, 0, 0.021);
+        
+        padding-right: auto;
+
+      }
+
+      .topright 
+
+      {
+        display: flex;
+
+         width: auto;
+
+         height: auto;
+
+        
+         margin-right: auto;
+
+         align-items: center;
+         
+      }
+ 
+     .section-two,.section-three,.section-four
+
+     {
+
+        height: 200px;
+
+     }
+     
+
+     .section-two
+
+     {
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        justify-content: center;
+
+        font-size: larger;
+
+        font-weight: bolder;
+
+        flex-wrap: wrap;
+
+        text-wrap: wrap;
+
+     }
+
+     .four-boxes 
+    
+     {
+        
+        height: auto;
+
+        width: auto;
+
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center;
+
+        flex-wrap: wrap;
+
+        gap: 15px;
+
+        margin-top: 10px;
+
+        flex-grow: auto;
+
+        overflow: hidden;
+
+     }
+     .four-boxes .box-one,.box-two,.box-three,.box-four
+
+     {  
+        display: flex;
+
+        flex-direction: column;
+
+        height: 140px;
+
+        max-width:  80px;
+
+        font-size: 8px;
+
+        font-weight: lighter;
+
+        flex: auto;   
+       
+     }
+
+     .box
+
+     {  border-radius: 2px;
+
+        height: 80px;
+
+        border: 2px solid rgb(9, 179, 247);
+
+     }
+
+     i
+     {
+        display: inline-flex;
+     }
+
+     .four-boxes button
+     {
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+        text-wrap: wrap;
+
+        flex-wrap: wrap;
+
+        font-size: 10px;
+
+        color: rgb(255, 255, 255);
+
+        font-style: italic;
+
+        border-radius: 4px;
+        
+     }
+
+     #one:hover,#two:hover,#three:hover,#four:hover
+
+     {
+
+         color: rgb(224, 49, 19);
+
+     }
+
+     #one
+
+     {
+
+      background-color: aqua;
+
+     }
+
+    #two
+     {
+       background-color: rgb(0, 255, 34); 
+     }
+     #three
+     {
+        background-color: rgb(255, 72, 0);
+     }
+     #four
+     {
+        background-color: rgb(47, 0, 255);
+     }
+
+     .section-three
+
+     {
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center;
+
+        flex: auto;
+
+        background-color:#E5E7EB;
+
+     }
+   
+     .middle-container
+
+     {
+
+        font-family: 'Times New Roman', Times, serif;
+
+        font-weight: lighter;
+
+        font-size: 15px;
+
+        max-width: 300px;
+
+        flex: auto;
+        
+       
+
+     }
+    .section-three .thunder
+
+     {
+
+        font-weight:bolder;
+
+        font-size: 10px;
+
+        text-align: end;
+
+     }
+
+
+
+     .buttom
+     {
+        background-color: #1F2937 ;
+
+        height: 30px;
+
+        font-size: xx-small;
+
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center;
+
+        color: white;
+     }
+
+    
+     .section-four
+
+     {
+        display: flex;
+
+        height: 170px;
+
+        align-items: center;
+
+        justify-content: center;
+     }
+
+     .fourbox
+      {
+        display: flex;
+
+        flex-direction: column;
+      
+        width: 400px;
+
+        height: 50px;
+
+        background-color: rgb(0, 132, 255);
+
+        color: white;
+
+        justify-content: center;
+
+        font-family: 'Courier New', Courier, monospace;
+
+        border-radius: 5px;
+
+        
+      }
+
+      .bluehead,.bluesmall
+
+      {
+
+        margin-left: 15px;
+
+      }
+
+      .bluehead
+
+      {
+
+        font-size: medium;
+
+      }
+
+      .bluesmall
+
+    {
+        display: flex;
+
+        font-size: xx-small;
+
+        font-weight: lighter;
+
+        align-items: center;
+
+        flex: auto;
+
+        gap: 10px;
+        
+        
+    }
+      .bluesmall button
+
+      {
+
+        font-size: xx-small;
+
+        font-weight: lighter;
+
+        color: white;
+
+        background-color: rgb(0, 132, 255);
+
+        margin-left: auto;
+
+        margin-right:50px;
+
+        border: 1px solid white;
+
+        padding: 2px 10px;
+        
+        border-radius: 2px;
+
+      }
