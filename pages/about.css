@@ -1,0 +1,87 @@
+
+    *
+    {
+      
+      
+    }
+
+    body
+    {
+  
+    background: linear-gradient(to bottom,blue,black);   
+
+    }
+
+    .container
+    {
+      color: white;
+      display: flex;
+      flex-direction: column;
+     
+      padding-left: 50px;
+      padding-right:50px ;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin: 0;
+      
+     
+      
+
+    }
+    .tophead
+
+    {
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-weight: 400;
+      font-size: medium;
+    }
+
+   
+    .toplist
+     {
+
+      
+      
+      font-weight: 600;
+      font-style: italic;
+      font-size: small;
+     }
+
+    li
+     {
+
+      margin: 5px;
+
+
+     }
+    
+     .discription
+
+     {
+
+       font-family: 'Times New Roman', Times, serif;
+       font-size: small;
+       font-weight: 600;
+       font-style: italic;
+
+     }
+
+     .discription,.tophead,.toplist,.notlist
+     {
+
+      margin: 10px;
+
+     }
+    button
+    {
+
+      margin: 10px;
+      align-self: center;
+      padding: 20px 100px;
+      justify-content: center;
+    }
+    a
+    {
+      display: flex;
+      justify-content: center;
+    }
+    

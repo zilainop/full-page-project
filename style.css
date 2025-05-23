@@ -1,460 +1,442 @@
- *
+*
         {
-
-            margin: 0;
-
+            font-family: 'Courier New', Courier, monospace;
+          
             padding: 0;
+            margin: 0;
+        }
 
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        body
+        {
+            display: flex;
+            flex-direction: column;
             
 
         }
         
-
-        .top-header
-
-        {   display: flex;
-
-            height: 20px;
-
-            background-color: #1F2937;
-
-            color: white;
-
+        .heading
+        {    
             display: flex;
-
+          
             align-items: center;
-
-            flex:auto;
-               
-        }
-        .head-logo
-
-        {
-
-        font-size: small;
-
-        padding-left: 80px;      
-
-        }
-
-        .top-link a
-        {   
-            
-            font-size: xx-small;
-
             color: white;
-
-            font-weight: 10px;
-
-            text-decoration: none;    
-            
+            background-color: rgb(22, 2, 94);
+            width: 100%;
+            margin: auto;
         }
-        .top-link a:hover
+
+        .headlogo
+        {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-size: large;
+        }
+
+        .lefthead
+        {   
+           
+            display: flex;
+            align-items: center;
+            margin-left: 50px;
+
+
+        }
+
+        .company-logo 
+        {
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            margin: 20px;
+        }
+        .righthead
+        {   
+            margin: 0;
+            padding: 0;
+           display: flex;
+           margin-left: auto;
+           margin-right: 50px;
+           
+
+        }
+
+        .toplinks
+        {
+            display:flex;
+            margin-left: auto;
+            gap: 15px;
+            flex-wrap: wrap;
+           text-wrap: wrap;
+        }
+
+        .righthead a:hover
         {
             color: red;
         }
-        .top-link
-        {
-            display: flex;
 
-            gap: 5px;
-
-            margin-left: auto;
-
-            margin-right: 50px;
-
-            font-family: monospace; 
-
-        }
-
-        .section-one
+        .righthead a
 
         {
-            height: 130px;
-
-            width: auto;
-
-            display: flex;
-
-            flex: auto;
-
-            background-color:#1F2937 ;
-
-            align-items: center;
+            color:  white;
+            text-decoration: none;
+             flex-wrap: wrap;
+           text-wrap: wrap;
+            
             
         }
 
-        .topleft
-
-        {   display: flex;
-
-            width: 50%;
-
-            flex-direction: column;
-
+        .sectionone
+        {
+            background-color:rgb(22, 2, 94) ;
             color: white;
+            display: flex;
+            align-items: center;
 
-            flex-wrap: wrap;
-
-            flex-grow: 0;
+        }
+        .leftitems
+        {
+            width: 50%;
+            
             
         }
 
-     .boldtext,.smalltext,.button
+        .boldtext
+        {   font-family:Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-weight: bolder;
+            font-size: xx-large;
+        }
 
-     {  display: flex;
 
-         margin-left: 80px;
+        .boldtext,.discription,.topbuttons
+        {
+           margin-left: 50px;
+           margin-top: 5px;
+           overflow-wrap: break-word;
+           word-break: normal;
 
-         flex: 0 1 0;
+        }
 
-         flex-wrap: wrap;
+        .discription
 
-         margin-top: 5px;
+        {
+            /* let make the discription itelic and give it a little weight. */
+            font-size: medium;
+            font-weight: 500;
+            font-style: italic;
+            
+        }
 
-         align-items: center;
-         
-     }
+        .topbuttons button
+        {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
-      .smalltext
+            font-weight: bold;
 
-      {
+        }
 
-         font-size: xx-small;
-
-      }
-
-      .button
-
-      {
-        color: white;
-
-        background-color: rgb(0, 132, 255);
-
-        font-size: xx-small;
-
-        margin-right: auto;
-
-        padding: 2px 12px;
-
-        border-radius: 3px;
-
-        border: 1px solid rgba(0, 0, 0, 0.021);
+        .loginone,.signupone
+        {
+            padding: 5px 10px;
+            border-radius: 8px;
+            color: white;
+            border: 1px solid #fdf5f3;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 5px;
         
-        padding-right: auto;
 
-      }
+        }
+
+        button:active
+        {
+         transform: scale(0.98);
+        }
+
+        button:hover
+        {
+           box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);  transform: translateY(-2px); 
+        }
+        .signupone
+        {
+            background-color: rgb(47, 231, 255);
+        }
+
+        .loginone
+        {
+            background-color: rgb(113, 255, 47);
+        }
+
+        .sectiontwo
+        {
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            margin-bottom: 10px;
+            
+        }
+
+        .thebox
+        {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            text-wrap: wrap;
+            align-items:flex-start;
+            margin-left: 50px;
+            margin-right: 50px;
+            gap: 10px;
+            
+
+        }
+
+        .boxes
+        {
+           display: flex;
+           flex-direction: column;
+           height: auto;
+            width: 120px;
+            flex-direction: column;
+            margin-top: 20px;
+            
+
+
+        }
+
+        .road
+        {   
+             margin-left: 50px;
+            margin-right: 50px;
+             margin-top: 10px;
+             margin-bottom:10px ;
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold'
+            , sans-serif;
+
+           font-size: xx-large;
+           font-weight: 900;
+           
+        }
+
+        .twodis
+        {
+            display: flex;
+            
+            justify-content: center;
+            text-wrap: wrap;
+           flex-wrap: wrap;
+           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           font-size: x-small;
+           font-weight: 500;
+
+             
+        }
+
+        .faith
+
+        {
+            display: flex;
+            justify-content: center;
+            background-color: rgb(9, 255, 63);
+            height: 120px;
+            width:auto;
+            align-items: center;
+            text-wrap: wrap;
+           flex-wrap: wrap;
+            overflow-wrap: break-word;
+            word-break: normal;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bold;
 
-      .topright 
+        }
 
-      {
-        display: flex;
+        #sectionthree
+        {
+            display: flex;
+            flex-direction: column;
+            background-color: #eceaea;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            gap: 10px;
 
-         width: auto;
+        }
 
-         height: auto;
+        .threehead
 
-        
-         margin-right: auto;
+        {
 
-         align-items: center;
-         
-      }
- 
-     .section-two,.section-three,.section-four
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+            font-size: xx-large;
+            font-weight: bold;
+            margin-left: 50px;
+            margin-right: 50px;
+            
 
-     {
+        }
+         .leftdiv
 
-        height: 200px;
+        {
+            width: 50% ;
+            display: flex;
+            flex-direction: column;
+            margin-left: 45px;
+            margin-right: 25px;
+            
 
-     }
-     
 
-     .section-two
+        }
 
-     {
+        .rightdiv
 
-        display: flex;
+        {
+            width: 50%;
+            margin-right: 45px;
+            margin-left: 25px;
 
-        flex-direction: column;
+        }
+        .threediv
+        {
+            display: flex;
+            
 
-        align-items: center;
+            
 
-        justify-content: center;
 
-        font-size: larger;
+        }
+         .divhead
+        {  
+              display:flex;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bold;
+            align-items: center;
+            justify-content: center;
+            
 
-        font-weight: bolder;
+        }
 
-        flex-wrap: wrap;
+        .divhead,.divthis,.divdeveloper
 
-        text-wrap: wrap;
-
-     }
-
-     .four-boxes 
-    
-     {
-        
-        height: auto;
-
-        width: auto;
-
-        display: flex;
-
-        justify-content: center;
-
-        align-items: center;
-
-        flex-wrap: wrap;
-
-        gap: 15px;
-
-        margin-top: 10px;
-
-        flex-grow: auto;
-
-        overflow: hidden;
-
-     }
-     .four-boxes .box-one,.box-two,.box-three,.box-four
-
-     {  
-        display: flex;
-
-        flex-direction: column;
-
-        height: 140px;
-
-        max-width:  80px;
-
-        font-size: 8px;
-
-        font-weight: lighter;
-
-        flex: auto;   
-       
-     }
-
-     .box
-
-     {  border-radius: 2px;
-
-        height: 80px;
-
-        border: 2px solid rgb(9, 179, 247);
-
-     }
-
-     i
-     {
-        display: inline-flex;
-     }
-
-     .four-boxes button
-     {
-        display: flex;
-
-        align-items: center;
-
-        justify-content: center;
-
-        text-wrap: wrap;
-
-        flex-wrap: wrap;
-
-        font-size: 10px;
-
-        color: rgb(255, 255, 255);
-
-        font-style: italic;
-
-        border-radius: 4px;
-        
-     }
-
-     #one:hover,#two:hover,#three:hover,#four:hover
-
-     {
-
-         color: rgb(224, 49, 19);
-
-     }
-
-     #one
-
-     {
-
-      background-color: aqua;
-
-     }
-
-    #two
-     {
-       background-color: rgb(0, 255, 34); 
-     }
-     #three
-     {
-        background-color: rgb(255, 72, 0);
-     }
-     #four
-     {
-        background-color: rgb(47, 0, 255);
-     }
-
-     .section-three
-
-     {
-        display: flex;
-
-        justify-content: center;
-
-        align-items: center;
-
-        flex: auto;
-
-        background-color:#E5E7EB;
-
-     }
-   
-     .middle-container
-
-     {
-
-        font-family: 'Times New Roman', Times, serif;
-
-        font-weight: lighter;
-
-        font-size: 15px;
-
-        max-width: 300px;
-
-        flex: auto;
-        
-       
-
-     }
-    .section-three .thunder
-
-     {
-
-        font-weight:bolder;
-
-        font-size: 10px;
-
-        text-align: end;
-
-     }
-
-
-
-     .buttom
-     {
-        background-color: #1F2937 ;
-
-        height: 30px;
-
-        font-size: xx-small;
-
-        display: flex;
-
-        justify-content: center;
-
-        align-items: center;
-
-        color: white;
-     }
-
-    
-     .section-four
-
-     {
-        display: flex;
-
-        height: 170px;
-
-        align-items: center;
-
-        justify-content: center;
-     }
-
-     .fourbox
-      {
-        display: flex;
-
-        flex-direction: column;
+        {
+            margin: 5px;
+        }
       
-        width: 400px;
 
-        height: 50px;
+       
 
-        background-color: rgb(0, 132, 255);
+        .divthis
+        {
+            font-style: italic;
+            font-weight: bolder;
+            
+          
 
-        color: white;
 
-        justify-content: center;
-
-        font-family: 'Courier New', Courier, monospace;
-
-        border-radius: 5px;
+        }
 
         
-      }
+        .divdeveloper
 
-      .bluehead,.bluesmall
+        {
+            font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-weight: bolder;
+            font-size: small;
+            text-align: end;
 
-      {
 
-        margin-left: 15px;
+        }
 
-      }
+        .sectionfour
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
-      .bluehead
+        .bluebox
+        {    
 
-      {
+            
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(1, 199, 248);
+            justify-content: center;
+            align-content: center;
+            margin: 50px;
+            color: white;
+            padding-left: 30px;
+            border-radius: 10px;
+            padding-left: 30px;
+            margin-left: 200px;
+            margin-right: 200px;
+            margin-top: 60px;
+            margin-bottom: 60px;
 
-        font-size: medium;
 
-      }
+            
 
-      .bluesmall
+        }
 
-    {
-        display: flex;
+        .fourhead
 
-        font-size: xx-small;
+        {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            font-size: normal;
+            align-items: center;
+            margin-top: 10px;
 
-        font-weight: lighter;
+            
 
-        align-items: center;
+        }
 
-        flex: auto;
+        .thissign
+        {
+            display: flex;
+            margin-right: 30px;
+            margin-top: 10px;
+            height: 60px;
+            align-items: center;
+        }
 
-        gap: 10px;
-        
-        
-    }
-      .bluesmall button
+        .fourthis
+        {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-weight: 200px;
+            font-size: normal;
 
-      {
+        }
 
-        font-size: xx-small;
+        .sign-up
 
-        font-weight: lighter;
+        {   font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            padding: 5px 10px;
+            font-size: x-small;
+            font-weight: bold;
+            height: 30px;
+            width: 120px;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(1, 199, 248);
+            border: 2px solid white;
+            border-radius: 8px;
+            color: white;
+            
 
-        color: white;
 
-        background-color: rgb(0, 132, 255);
 
-        margin-left: auto;
+        }
 
-        margin-right:50px;
-
-        border: 1px solid white;
-
-        padding: 2px 10px;
-        
-        border-radius: 2px;
-
-      }
+        .sectionfive
+        {   display: flex;
+            color: white;
+            justify-content: center;
+            align-items: center;
+             background-color:rgb(22, 2, 94) ;
+             height: 50px;
+             font-family: 'Times New Roman', Times, serif;
+             font-size: smaller;
+             font-weight: 100;
+        }
