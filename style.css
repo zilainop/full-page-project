@@ -238,7 +238,7 @@
         {
             display: flex;
             justify-content: center;
-            background-color: rgb(9, 255, 63);
+            background-color:rgb(22, 2, 94) ;
             height: 120px;
             width:auto;
             align-items: center;
@@ -248,6 +248,7 @@
             word-break: normal;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             font-weight: bold;
+            color: white;
 
         }
 
